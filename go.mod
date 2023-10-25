@@ -6,7 +6,7 @@ go 1.20
 replace sigs.k8s.io/controller-runtime => ./third_party/sigs.k8s.io/controller-runtime
 
 require (
-	cloud.google.com/go/trace v1.8.0
+	cloud.google.com/go/trace v1.9.0
 	contrib.go.opencensus.io/exporter/ocagent v0.7.0
 	contrib.go.opencensus.io/exporter/prometheus v0.4.2
 	contrib.go.opencensus.io/exporter/stackdriver v0.13.14
@@ -28,7 +28,7 @@ require (
 	go.uber.org/automaxprocs v1.5.2
 	go.uber.org/zap v1.24.0
 	golang.org/x/net v0.10.0
-	golang.org/x/oauth2 v0.5.0
+	golang.org/x/oauth2 v0.7.0
 	golang.org/x/sync v0.2.0
 	golang.org/x/time v0.3.0
 	gopkg.in/yaml.v2 v2.4.0
@@ -46,9 +46,9 @@ require (
 )
 
 require (
-	cloud.google.com/go/compute v1.15.1 // indirect
+	cloud.google.com/go/compute v1.19.1 // indirect
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
-	cloud.google.com/go/monitoring v1.8.0 // indirect
+	cloud.google.com/go/monitoring v1.13.0 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/OneOfOne/xxhash v1.2.8 // indirect
 	github.com/agnivade/levenshtein v1.1.1 // indirect
@@ -89,8 +89,8 @@ require (
 	github.com/google/cel-go v0.12.6 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
-	github.com/googleapis/enterprise-certificate-proxy v0.2.1 // indirect
-	github.com/googleapis/gax-go/v2 v2.7.0 // indirect
+	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
+	github.com/googleapis/gax-go/v2 v2.7.1 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.11.3 // indirect
 	github.com/imdario/mergo v0.3.12 // indirect
@@ -142,10 +142,10 @@ require (
 	golang.org/x/term v0.8.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.3.0 // indirect
-	google.golang.org/api v0.108.0 // indirect
+	google.golang.org/api v0.114.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20230125152338-dcaf20b6aeaa // indirect
-	google.golang.org/grpc v1.54.0 // indirect
+	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
+	google.golang.org/grpc v1.56.3 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	k8s.io/apiserver v0.27.2 // indirect
